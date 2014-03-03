@@ -1,4 +1,4 @@
-package com.tutran.resume;
+package com.tutran.resume.ref;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.tutran.resume.R;
 import com.tutran.resume.dummy.DummyContent;
 
 /**

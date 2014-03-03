@@ -1,4 +1,4 @@
-package com.tutran.resume;
+package com.tutran.resume.ref;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -7,8 +7,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <activity
-            android:name="com.tutran.resume.ItemListActivity"
+            android:name=".MyResumeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Intro" >
+        </activity>
+
+        <activity
+            android:name=".ref.ItemListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,9 +32,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tutran.resume.ItemDetailActivity"
+            android:name=".ref.ItemDetailActivity"
             android:label="@string/title_item_detail"
-            android:parentActivityName="com.tutran.resume.ItemListActivity" >
+            android:parentActivityName=".ref.ItemListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.tutran.resume.ItemListActivity" />

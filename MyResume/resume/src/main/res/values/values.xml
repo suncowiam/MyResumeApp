@@ -1,0 +1,3 @@
+<resources>    
+    <bool name="large_display">false</bool>
+</resources>
